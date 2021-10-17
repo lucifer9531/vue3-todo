@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import TodoItem from './Item'
+import TodoItem from './Item.vue';
 import {ITodo} from "@/typings";
 import { IUseTodo, useTodo } from "@/hooks";
 
